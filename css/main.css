@@ -1,7 +1,7 @@
 
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
-@import url("fonts.css");
+
 
 
 /* ===================================================================
@@ -33,7 +33,7 @@ html, body {
 
 body {
   background: #111111;
-  font-family: "librebaskerville-regular", serif;
+  font-family: "poppins", serif;
   font-size: 1.6rem;
   line-height: 3rem;
   color: #353535;
@@ -45,7 +45,7 @@ body {
  * links - (_document-setup) 
  * ------------------------------------------------------------------- */
 a, a:visited {
-  color: #07617d;
+  color: #ffffff;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -64,8 +64,8 @@ a:hover, a:focus {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6,
 .h01, .h02, .h03, .h04, .h05, .h06 {
-  font-family: "montserrat-bold", sans-serif;
-  color: #151515;
+ font-family: "poppins", sans-serif;
+  color: #fdfdfd;
   font-style: normal;
   text-rendering: optimizeLegibility;
   margin-bottom: 2.1rem;
@@ -125,7 +125,7 @@ p img {
 }
 
 p.lead {
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "Poppins", sans-serif;
   font-size: 2rem;
   line-height: 1.8;
   color: #4f4f4f;
@@ -145,11 +145,11 @@ em, i, strong, b {
 }
 
 em, i {
-  font-family: "librebaskerville-italic", serif;
+  font-family: "courier", sans-serif;;
 }
 
 strong, b {
-  font-family: "librebaskerville-bold", serif;
+ font-family: "courier", sans-serif;
 }
 
 small {
@@ -169,14 +169,14 @@ blockquote:before {
   line-height: 0px;
   margin: 0;
   color: rgba(0, 0, 0, 0.3);
-  font-family: arial, sans-serif;
+  font-family: "courier", sans-serif;
   position: absolute;
   top: 3.6rem;
   left: 0;
 }
 
 blockquote p {
-  font-family: "librebaskerville-italic", georgia, serif;
+  font-family: "poppins", sans-serif;
   font-style: italic;
   padding: 0;
   font-size: 1.9rem;
@@ -201,7 +201,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "librebaskerville-bold", serif;
+ font-family: "courier", sans-serif;
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: .05rem;
@@ -209,7 +209,7 @@ abbr {
 }
 
 var, kbd, samp, code, pre {
-  font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+  font-family: "courier", sans-serif;
 }
 
 pre {
@@ -301,7 +301,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #07617d;
+  background: #ffffff;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -310,7 +310,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #07617d;
+  color: #ffffff;
 }
 
 dd {
@@ -390,7 +390,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "librebaskerville-regular", sans-serif;
+  font-family: "courier", sans-serif;
 }
 
 th,
@@ -402,7 +402,7 @@ td {
 
 th {
   color: #151515;
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
 }
 
 td {
@@ -531,7 +531,7 @@ select {
   outline: none;
   vertical-align: middle;
   color: #444444;
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.4rem;
   line-height: 3rem;
   max-width: 100%;
@@ -568,7 +568,7 @@ select {
 }
 .ss-custom-select::after {
   content: '\f0d7';
-  font-family: 'FontAwesome';
+  font-family: 'courier';
   position: absolute;
   top: 50%;
   right: 1.5rem;
@@ -605,7 +605,7 @@ select:focus {
 }
 
 label, legend {
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.4rem;
   margin-bottom: .6rem;
   color: #020202;
@@ -620,7 +620,7 @@ input[type="radio"] {
 label > .label-text {
   display: inline-block;
   margin-left: 1rem;
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   line-height: inherit;
 }
 
@@ -686,7 +686,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -768,6 +768,7 @@ button.large, .button.large {
 button.stroke, .button.stroke {
   background: transparent !important;
   border: 3px solid #313131;
+  border-radius: 35px;
   line-height: 4.8rem;
 }
 
@@ -805,7 +806,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3rem;
   border-radius: 3px;
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.5rem;
 }
 .alert-box .close {
@@ -845,7 +846,7 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 1.5rem .6rem 0 0;
   font-size: 8.4rem;
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
   line-height: 6rem;
   text-indent: 0;
   background: transparent;
@@ -912,7 +913,7 @@ input::-moz-focus-inner {
   height: 1em;
   position: absolute;
   font-size: 10rem;
-  font-family: Arial, Sans-Serif;
+  font-family: "courier", sans-serif;
   color: rgba(0, 0, 0, 0.3);
 }
 .pull-quote:before {
@@ -962,18 +963,18 @@ input::-moz-focus-inner {
 .stats-tabs li a {
   display: inline-block;
   font-size: 2.5rem;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: "courier", sans-serif;
   border: none;
   color: #252525;
 }
 .stats-tabs li a:hover {
-  color: #07617d;
+  color: #ffffff;
 }
 .stats-tabs li a em {
   display: block;
   margin: .6rem 0 0 0;
   font-size: 1.4rem;
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   color: #4f4f4f;
 }
 
@@ -997,7 +998,7 @@ input::-moz-focus-inner {
   position: absolute;
   left: 0;
   top: -3rem;
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -1014,7 +1015,7 @@ input::-moz-focus-inner {
   right: 0;
   top: -3.6rem;
   display: block;
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   color: white;
   font-size: 1.1rem;
   line-height: 1;
@@ -1103,13 +1104,13 @@ input::-moz-focus-inner {
   margin-bottom: 1.5rem;
 }
 .section-intro h1 {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "mono", serif;
   font-size: 4.8rem;
   line-height: 1.375;
   color: #151515;
 }
 .section-intro h3 {
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.8 rem;
   line-height: 1.667;
   color: rgba(242, 242, 242, 0.5);
@@ -1118,7 +1119,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.2rem;
 }
 .section-intro .lead {
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.8;
   line-height: 1.833;
 }
@@ -1254,7 +1255,7 @@ header .header-logo a {
   height: 42px;
   width: 42px;
   line-height: 42px;
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -1350,13 +1351,13 @@ header .header-logo a {
 }
 #menu-nav-wrap h3 {
   color: white;
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 2rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
 #menu-nav-wrap .nav-list {
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   margin: 3.6rem 0 1.5rem 0;
   padding: 0 0 1.8rem 0;
   list-style: none;
@@ -1376,7 +1377,7 @@ header .header-logo a {
 }
 #menu-nav-wrap .nav-list li a:hover, 
 #menu-nav-wrap .nav-list li a:focus {
-  color: white;
+  color: rgb(167, 165, 165);
 }
 #menu-nav-wrap .header-social-list {
   list-style: none;
@@ -1435,7 +1436,7 @@ header .header-logo a {
   transform: rotate(45deg);
 }
 #menu-nav-wrap .sponsor-text {
-  font-family: "librebaskerville-regular", serif;
+  font-family: "courier", sans-serif;
   font-size: 1.4rem;
   line-height: 3rem;
 }
@@ -1470,6 +1471,38 @@ header .header-logo a {
 }
 
 
+body{
+  background-color: #000;
+}
+
+.main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 1px;
+  width: 1px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: -42vw -4vh 0px 0px #fff,25vw -41vh 0px 0px #fff,-20vw 49vh 0px 1px #fff,5vw 40vh 1px 1px #fff,29vw 19vh 1px 0px #fff,-44vw -13vh 0px 0px #fff,46vw 41vh 0px 1px #fff,-3vw -45vh 0px 1px #fff,47vw 35vh 1px 0px #fff,12vw -8vh 1px 0px #fff,-34vw 48vh 1px 1px #fff,32vw 26vh 1px 1px #fff,32vw -41vh 1px 1px #fff,0vw 37vh 1px 1px #fff,34vw -26vh 1px 0px #fff,-14vw -49vh 1px 0px #fff,-12vw 45vh 0px 1px #fff,-44vw -33vh 0px 1px #fff,-13vw 41vh 0px 0px #fff,-36vw -11vh 0px 1px #fff,-23vw -24vh 1px 0px #fff,-38vw -27vh 0px 1px #fff,16vw -19vh 0px 0px #fff,28vw 33vh 1px 0px #fff,-49vw -4vh 0px 0px #fff,16vw 32vh 0px 1px #fff,36vw -18vh 1px 0px #fff,-25vw -30vh 1px 0px #fff,-23vw 24vh 0px 1px #fff,-2vw -35vh 1px 1px #fff,-25vw 9vh 0px 0px #fff,-15vw -34vh 0px 0px #fff,-8vw -19vh 1px 0px #fff,-20vw -20vh 1px 1px #fff,42vw 50vh 0px 1px #fff,-32vw 10vh 1px 0px #fff,-23vw -17vh 0px 0px #fff,44vw 15vh 1px 0px #fff,-40vw 33vh 1px 1px #fff,-43vw 8vh 0px 0px #fff,-48vw -15vh 1px 1px #fff,-24vw 17vh 0px 0px #fff,-31vw 50vh 1px 0px #fff,36vw -38vh 0px 1px #fff,-7vw 48vh 0px 0px #fff,15vw -32vh 0px 0px #fff,29vw -41vh 0px 0px #fff,2vw 37vh 1px 0px #fff,7vw -40vh 1px 1px #fff,15vw 18vh 0px 0px #fff,25vw -13vh 1px 1px #fff,-46vw -12vh 1px 1px #fff,-18vw 22vh 0px 0px #fff,23vw -9vh 1px 0px #fff,50vw 12vh 0px 1px #fff,45vw 2vh 0px 0px #fff,14vw -48vh 1px 0px #fff,23vw 43vh 0px 1px #fff,-40vw 16vh 1px 1px #fff,20vw -31vh 0px 1px #fff,-17vw 44vh 1px 1px #fff,18vw -45vh 0px 0px #fff,33vw -6vh 0px 0px #fff,0vw 7vh 0px 1px #fff,-10vw -18vh 0px 1px #fff,-19vw 5vh 1px 0px #fff,1vw 42vh 0px 0px #fff,22vw 48vh 0px 1px #fff,39vw -8vh 1px 1px #fff,-6vw -42vh 1px 0px #fff,-47vw 34vh 0px 0px #fff,-46vw 19vh 0px 1px #fff,-12vw -32vh 0px 0px #fff,-45vw -38vh 0px 1px #fff,-28vw 18vh 1px 0px #fff,-38vw -46vh 1px 1px #fff,49vw -6vh 1px 1px #fff,-28vw 18vh 1px 1px #fff,10vw -24vh 0px 1px #fff,-5vw -11vh 1px 1px #fff,33vw -8vh 1px 0px #fff,-16vw 17vh 0px 0px #fff,18vw 27vh 0px 1px #fff,-8vw -10vh 1px 1px #fff;
+
+/* stars were too big with the layers above but left the code in case no one cares  -- as in, if noone's just that  one other loner who actually cares    */
+
+box-shadow: 24vw 9vh 1px 0px #fff,12vw -24vh 0px 1px #fff,-45vw -22vh 0px 0px #fff,-37vw -40vh 0px 1px #fff,29vw 19vh 0px 1px #fff,4vw -8vh 0px 1px #fff,-5vw 21vh 1px 1px #fff,-27vw 26vh 1px 1px #fff,-47vw -3vh 1px 1px #fff,-28vw -30vh 0px 1px #fff,-43vw -27vh 0px 1px #fff,4vw 22vh 1px 1px #fff,36vw 23vh 0px 0px #fff,-21vw 24vh 1px 1px #fff,-16vw 2vh 1px 0px #fff,-16vw -6vh 0px 0px #fff,5vw 26vh 0px 0px #fff,-34vw 41vh 0px 0px #fff,1vw 42vh 1px 1px #fff,11vw -13vh 1px 1px #fff,48vw -8vh 1px 0px #fff,22vw -15vh 0px 0px #fff,45vw 49vh 0px 0px #fff,43vw -27vh 1px 1px #fff,20vw -2vh 0px 0px #fff,8vw 22vh 0px 1px #fff,39vw 48vh 1px 1px #fff,-21vw -11vh 0px 1px #fff,-40vw 45vh 0px 1px #fff,11vw -30vh 1px 0px #fff,26vw 30vh 1px 0px #fff,45vw -29vh 0px 1px #fff,-2vw 18vh 0px 0px #fff,-29vw -45vh 1px 0px #fff,-7vw -27vh 1px 1px #fff,42vw 24vh 0px 0px #fff,45vw -48vh 1px 0px #fff,-36vw -18vh 0px 0px #fff,-44vw 13vh 0px 1px #fff,36vw 16vh 0px 1px #fff,40vw 24vh 0px 0px #fff,18vw 11vh 0px 0px #fff,-15vw -23vh 1px 0px #fff,-24vw 48vh 0px 1px #fff,27vw -45vh 1px 0px #fff,-2vw -24vh 0px 1px #fff,-15vw -28vh 0px 0px #fff,-43vw 13vh 1px 0px #fff,7vw 27vh 1px 0px #fff,47vw 5vh 0px 0px #fff,-45vw 15vh 1px 1px #fff,-5vw -28vh 0px 1px #fff,38vw 25vh 1px 1px #fff,-39vw -1vh 1px 0px #fff,5vw 0vh 1px 0px #fff,49vw 13vh 0px 0px #fff,48vw 10vh 0px 1px #fff,19vw -28vh 0px 0px #fff,4vw 7vh 0px 0px #fff,21vw 21vh 1px 1px #fff,-15vw -15vh 0px 1px #fff,-6vw -42vh 1px 0px #fff,-15vw 48vh 1px 1px #fff,-23vw 25vh 1px 1px #fff,-48vw 25vh 0px 1px #fff,-31vw -19vh 0px 1px #fff,4vw 37vh 1px 1px #fff,-43vw 28vh 0px 0px #fff,3vw -25vh 0px 1px #fff,-39vw 14vh 0px 1px #fff,-40vw 31vh 0px 1px #fff,35vw -36vh 1px 1px #fff,16vw 49vh 0px 0px #fff,6vw 39vh 0px 0px #fff,3vw -35vh 0px 1px #fff,-44vw -2vh 1px 0px #fff,-6vw 21vh 1px 0px #fff,48vw 9vh 1px 1px #fff,-43vw 30vh 1px 1px #fff,29vw -12vh 1px 1px #fff,-48vw 13vh 1px 0px #fff,-42vw 32vh 1px 1px #fff,34vw 15vh 1px 1px #fff,29vw -37vh 1px 1px #fff,28vw 2vh 0px 0px #fff;
+animation: zoom 16s alternate infinite; 
+}
+
+@keyframes zoom {
+  0%{
+      transform: scale(1);
+  }
+  100%{
+      transform: scale(1.5);
+  }
+}
+
+
+
+
 /* ===================================================================
  *  10. home - (_layout.scss)
  *
@@ -1478,7 +1511,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   background-color: #151515;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/Space.gif);
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
@@ -1517,7 +1550,7 @@ header .header-logo a {
   padding-bottom: 15rem;
 }
 .home-content-tablecell h3 {
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 2.2rem;
   color: white;
   text-transform: uppercase;
@@ -1525,7 +1558,7 @@ header .header-logo a {
   margin: 0 0 .9rem 0;
 }
 .home-content-tablecell h1 {
-  font-family: "montserrat-bold", serif;
+  font-family: "poppins thin", serif;
   font-size: 9rem;
   line-height: 1.133;
   color: #FFFFFF;
@@ -1589,7 +1622,7 @@ header .header-logo a {
   padding-left: 9px;
 }
 .scrolldown a:hover, .scrolldown a:focus, .scrolldown a:active {
-  color: #151515 !important;
+  color: #696969 !important;
 }
 
 html[data-useragent*='MSIE 10.0'] .scrolldown,
@@ -1599,7 +1632,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 .scroll-icon {
   display: inline-block;
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -1636,10 +1669,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * home section 
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
   .home-content-tablecell h3 {
     font-size: 2.1rem;
@@ -1740,28 +1769,24 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 
-/* ===================================================================
- *  11. about - (_layout.scss)
- *
- * ------------------------------------------------------------------- */
 #about {
   position: relative;
   padding: 4.2rem 0 12rem;
-  background-color: #FFFFFF;
+  background-color: #aca9a9;
   min-height: 696px;
-  text-align: center;
+  
 }
 #about .about-wrap {
   max-width: 850px;
 }
 #about span {
-  color: #07617d;
+  color: #ffffff;
 }
 #about h3 {
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "poppins", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -1771,16 +1796,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   content: "";
   width: 3px;
   height: 9.6rem;
-  background-color: rgba(149, 149, 149, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   margin: 0 auto 2.4rem;
 }
-#about .lead {
-  font-family: "librebaskerville-bold", serif;
-  font-size: 4rem;
-  line-height: 1.8;
-  color: #2e383f;
-  margin-top: 6rem;
-}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -1905,7 +1924,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .services-list .service-item {
   margin-bottom: 3rem;
-  padding: 0 50px;
+
 }
 #services .services-list .service-item p {
   color: rgba(242, 242, 242, 0.5);
@@ -2050,7 +2069,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 .bricks-wrapper .item-wrap .overlay::after {
   content: "...";
-  font-family: georgia, serif;
+  font-family: 'Courier New', Courier, monospace, serif;
   font-size: 3rem;
   z-index: 1;
   display: block;
@@ -2089,7 +2108,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.364;
 }
 .bricks-wrapper .item-wrap .item-text .folio-types {
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.1rem;
   line-height: 1.5rem;
   text-transform: uppercase;
@@ -2181,13 +2200,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 .lg-sub-html h4 {
   color: #FFFFFF;
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.8rem;
   line-height: 1.333;
 }
 
 .lg-sub-html p {
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.3rem;
   line-height: 2.4rem;
   margin: .6rem 0 0;
@@ -2203,7 +2222,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #lg-counter {
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2238,10 +2257,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   text-align: center;
 }
 #testimonials h2 {
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -2254,6 +2273,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin: 0 auto;
 }
 
+
 #testimonial-slider {
   margin: 0 0 3rem 0;
   position: relative;
@@ -2262,14 +2282,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding-bottom: 3rem;
 }
 #testimonial-slider p {
-  font-family: "librebaskerville-bold", serif;
+ font-family: "courier", sans-serif;
   font-size: 3rem;
   line-height: 1.8;
   color: #151515;
 }
 #testimonial-slider p::before, #testimonial-slider p::after {
   display: inline-block;
-  font-family: "librebaskerville-bold", serif;
+ font-family: "courier", sans-serif;
   font-size: 3.6rem;
   line-height: 1;
 }
@@ -2294,7 +2314,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  font-family: "librebaskerville-bold", sans-serif;
+  font-family: "courier", sans-serif;
   font-size: 2rem;
   margin-top: .9rem;
   margin-bottom: 3rem;
@@ -2302,7 +2322,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #testimonial-slider .testimonial-author .author-info span {
   display: block;
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.6rem;
   line-height: 1.313;
   letter-spacing: 0;
@@ -2423,7 +2443,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #clients .owl-carousel .owl-nav [class*='owl-'] {
   color: #FFFFFF;
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.4rem;
   height: 3rem;
   line-height: 3rem;
@@ -2542,7 +2562,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   clear: both;
 }
 #contact form .form-field label {
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1rem;
   line-height: 1.4;
   position: absolute;
@@ -2657,7 +2677,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #submit-loader .text-loader {
   display: none;
-  font-family: "montserrat-bold", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.4rem;
   color: #FFFFFF;
   letter-spacing: .2rem;
@@ -2859,7 +2879,7 @@ footer h4.h05::after {
 }
 .footer-main #mc-form label {
   color: #f9a828;
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
 }
 
 /* footer bottom
@@ -2867,7 +2887,7 @@ footer h4.h05::after {
 .footer-bottom {
   margin-top: 3rem;
   text-align: center;
-  font-family: "montserrat-regular", sans-serif;
+ font-family: "courier", sans-serif;
   font-size: 1.4rem;
 }
 .footer-bottom .copyright span {
@@ -2919,46 +2939,4 @@ footer h4.h05::after {
 #go-top a:hover, #go-top a:focus {
   background: #000000;
   color: #FFFFFF;
-}
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * footer
- * ------------------------------------------------------------------- */
-@media only screen and (max-width: 768px) {
-  #go-top {
-    bottom: 0;
-    right: 0;
-  }
-
-  .footer-main {
-    text-align: center;
-  }
-  .footer-main .row {
-    max-width: 480px;
-  }
-  .footer-main [class*="col-"] {
-    margin-bottom: 3.6rem;
-  }
-
-  footer h4.h05 {
-    padding-bottom: 3rem;
-    margin-bottom: 3rem;
-  }
-
-  footer h4.h05::after {
-    left: 50%;
-    margin-left: -50px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .footer-bottom {
-    padding-bottom: .6rem;
-  }
-  .footer-bottom .copyright span {
-    display: block;
-  }
-  .footer-bottom .copyright span::after {
-    display: none;
-  }
 }
