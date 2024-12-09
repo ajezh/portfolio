@@ -56,11 +56,11 @@ ub li {
 ub li a {
  
  
-  font-size:40px;
+  font-size:30px;
   text-align:center;
   
   color:#404040;
-  margin: 0 20px;
+  margin: 0 30px;
   transition:.5s;
 }
 
