@@ -44,16 +44,16 @@ body {
 
 
 
-ul {
+ub {
   width:100%;
   position:;
 
   display:flex;
 }
-ul li {
+ub li {
   list-style:none;
 }
-ul li a {
+ub li a {
  
  
   font-size:40px;
@@ -83,10 +83,10 @@ ul li a {
 }
 
 
-ul li a:hover:nth-child(3) {
+ub li a:hover:nth-child(3) {
   color: #c32aa3;
 }
-ul li a:hover:nth-child(4) {
+ub li a:hover:nth-child(4) {
   color: #dd4b39;
 }
 
