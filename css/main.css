@@ -43,102 +43,35 @@ body {
 
 
 
-ub {
+
+ul {
   width:100%;
-  align:center;
-  margin:0;
-  padding:0;
+  position:;
+
   display:flex;
 }
-ub li {
+ul li {
   list-style:none;
 }
-ub li a {
-  display:block;
-  position:relative;
-  width:80px;
-  height:80px;
-  line-height:80px;
-  font-size:30px;
+ul li a {
+ 
+ 
+  font-size:40px;
   text-align:center;
-  text-decoration:none;
+  
   color:#404040;
-  margin: 0 30px;
+  margin: 0 20px;
   transition:.5s;
-}
-ub li a span {
-  position:absolute;
-  transition: transform .5s;
-}
-ub li a span:nth-child(1),
-ub li a span:nth-child(3){
-  width:100%;
-  height:3px;
-  background:#404040;
-}
-ub li a span:nth-child(1) {
-  top:0;
-  left:0;
-  transform-origin: right;
-}
-ub li a:hover span:nth-child(1) {
-  transform: scaleX(0);
-  transform-origin: left;
-  transition:transform .5s;
-}
-
-ub li a span:nth-child(3) {
-  bottom:0;
-  left:0;
-  transform-origin: left;
-}
-ub li a:hover span:nth-child(3) {
-  transform: scaleX(0);
-  transform-origin: right;
-  transition:transform .5s;
-}
-
-ub li a span:nth-child(2),
-ub li a span:nth-child(4){
-  width:3px;
-  height:100%;
-  background:#404040;
-}
-ub li a span:nth-child(2) {
-  top:0;
-  left:0;
-  transform:scale(0);
-  transform-origin: bottom;
-}
-ub li a:hover span:nth-child(2) {
-  transform: scale(1);
-  transform-origin: top;
-  transition:transform .5s;
-}
-ub li a span:nth-child(4) {
-  top:0;
-  right:0;
-  transform:scale(0);
-  transform-origin: top;
-}
-ub li a:hover span:nth-child(4) {
-  transform: scale(1);
-  transform-origin: bottom;
-  transition:transform .5s;
 }
 
 .call:hover {
   color: #0000ff;
 }
-.call:hover span { 
-  background: #0000ff;
-}
+
 .wp:hover {
   color: #00cc00;
 }
-.wp:hover span { 
-  background: #00cc00;
-}
+
 .mail:hover {
   color:  #ff3300;
 }
@@ -148,12 +81,8 @@ ub li a:hover span:nth-child(4) {
 .tele:hover {
   color: #3399ff;
 }
-.tele:hover span { 
-  background: #3399ff;
-}
-ul li a .twitter {
-  color: #1da1f2;
-}
+
+
 ul li a:hover:nth-child(3) {
   color: #c32aa3;
 }
