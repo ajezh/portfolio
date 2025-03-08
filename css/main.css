@@ -1963,7 +1963,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 4.2rem 0 12rem;
   background-color: #ffffff;
   min-height: 696px;
-  
+  radius:25px;
 }
 #about .about-wrap {
   max-width: 850px;
